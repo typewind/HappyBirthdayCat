@@ -10,7 +10,7 @@ var piecesGroup,
     shuffledIndexArray = [];
 
 function preload() {
-    game.load.spritesheet("background", "assets/cat_birthday.png", PIECE_WIDTH, PIECE_HEIGHT);
+    game.load.spritesheet("background", "asset/cat_birthday.png", PIECE_WIDTH, PIECE_HEIGHT);
 }
 
 function create() {
@@ -131,7 +131,7 @@ function showFinishedText() {
 
     var style = { font: "40px Arial", fill: "#000", align: "center"};
 
-    var text = game.add.text(game.world.centerX, game.world.centerY, "Congratulations! \nYou made it!", style);
+    var text = game.add.text(game.world.centerX, game.world.centerY, "Up The Villa! Have a Great 2018!", style);
 
     text.anchor.set(0.5);
 
