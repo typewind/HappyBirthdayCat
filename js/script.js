@@ -1,7 +1,7 @@
-var game = new Phaser.Game(720, 820, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create });
+var game = new Phaser.Game(720, 810, Phaser.AUTO, 'game', { preload: preload, create: create });
 
-var PIECE_WIDTH = 180,
-    PIECE_HEIGHT = 205,
+var PIECE_WIDTH = 340,
+    PIECE_HEIGHT =270,
     BOARD_COLS,
     BOARD_ROWS;
 
@@ -129,9 +129,9 @@ function checkIfFinished() {
 
 function showFinishedText() {
 
-    var style = { font: "40px Arial", fill: "#000", align: "center"};
+    var style = { font: "40px Arial", fill: "#fff", align: "center"};
 
-    var text = game.add.text(game.world.centerX, game.world.centerY, "Up The Villa! Have a Great 2018!", style);
+    var text = game.add.text(game.world.centerX, game.world.centerY, "Hope Cat Have a Greate 2018! Up The Villa!", style);
 
     text.anchor.set(0.5);
 
