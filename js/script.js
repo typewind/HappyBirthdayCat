@@ -1,7 +1,7 @@
 var game = new Phaser.Game(720, 820, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create });
 
-var PIECE_WIDTH = 360,
-    PIECE_HEIGHT = 410,
+var PIECE_WIDTH = 180,
+    PIECE_HEIGHT = 205,
     BOARD_COLS,
     BOARD_ROWS;
 
