@@ -10,6 +10,11 @@ var piecesGroup,
     shuffledIndexArray = [];
 
 function preload() {
+    if(!game.device.desktop){//自适应
+            this.scale.scaleMode = Phaser.ScaleManager.EXACT_FIT;
+            this.scale.forcePortrait = true;
+            this.scale.refresh();
+        }
     game.load.spritesheet("background", "asset/cat_birthday.png", PIECE_WIDTH, PIECE_HEIGHT);
 }
 
