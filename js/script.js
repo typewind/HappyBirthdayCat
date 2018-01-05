@@ -1,6 +1,6 @@
 var game = new Phaser.Game(720, 810, Phaser.AUTO, 'game', { preload: preload, create: create });
 
-var PIECE_WIDTH = 340,
+var PIECE_WIDTH = 240,
     PIECE_HEIGHT =270,
     BOARD_COLS,
     BOARD_ROWS;
