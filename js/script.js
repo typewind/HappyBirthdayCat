@@ -136,7 +136,7 @@ function showFinishedText() {
 
     var style = { font: "40px Arial", fill: "#fff", align: "center"};
 
-    var text = game.add.text(game.world.centerX, game.world.centerY, "Hope Cat Have a Greate 2018! Up The Villa!", style);
+    var text = game.add.text(game.world.centerX, game.world.centerY, "Hope Cat Have a Great 2018! Up The Villa!", style);
 
     text.anchor.set(0.5);
 
